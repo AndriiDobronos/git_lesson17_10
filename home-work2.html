@@ -5,8 +5,11 @@
     <title>Table</title>
 </head>
 <style>
-    table, th {
+    table, th, td {
         border: 2px solid black;
+    }
+    h1,h2{
+        text-align: center;
     }
     p{
         line-height:60%;
@@ -16,43 +19,43 @@
 <table width="90%">
     <thead>
       <tr>
-          <th colspan="4" style="background: blue">
+          <td colspan="4" style="background: blue">
              <h1>MY FIRST TABLE</h1>
-          </th>
+          </td>
       </tr>
     </thead>
       <tr>
-          <th style="background: blue">
+          <td style="background: blue">
               <h2>First cell</h2>
-          </th>
-          <th style="background: blue">
+          </td>
+          <td style="background: blue">
               <h2>Second cell</h2>
-          </th>
-          <th rowspan="3" style="background: yellow">
+          </td>
+          <td rowspan="3" style="background: yellow">
               <h2>6 sells merged together</h2>
-          </th>
+          </td>
       </tr>
       <tr>
-          <th colspan="2"style="background: yellow">
+          <td colspan="2"style="background: yellow">
               <h2>2 cell merged into one</h2>
-          </th>
+          </td>
       </tr>
       <tr>
-          <th style="background: yellow">
+          <td style="background: yellow">
            <p><h2>1st cell<br>3rd row</h2>
            </p>
-          </th>
-          <th style="background: yellow">
+          </td>
+          <td style="background: yellow">
              <p>
               <h2>2nd cell<br>3rd row</h2>
               </p>
-          </th>
+          </td>
       </tr>
     <tfoot>
       <tr>
-          <th colspan="4" style="background: yellow">
+          <td colspan="4" style="background: yellow">
               <h2>Do you like table ?</h2>
-          </th>
+          </td>
       </tr>
     </tfoot>
 </table>
